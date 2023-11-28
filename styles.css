@@ -26,8 +26,8 @@
 /* CSS variables for consistent sizing */
 
 :root {
-    --cell-size: 120px;
-    --mark-size: calc(var(--cell-size) * .9);
+    --cell-size: 150px;
+    --mark-size: calc(var(--cell-size) * 1.9);
 }
 
 
@@ -52,9 +52,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-}
-
-body {
     background: linear-gradient(-45deg, #ee7752, #a33d64, #8523d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
