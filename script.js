@@ -68,7 +68,7 @@ function enableClick() {
 
 // Game state variables
 var board = ['', '', '', '', '', '', '', '', ''];
-var gameState = "ongoing"; //status can be over, ongoing, draw
+var gameState = "ongoing";
 var currentPlayer = 'X';
 var anotherPlayer = 'O';
 var winner;
@@ -151,9 +151,9 @@ function makeMove(pos) {
 // Evaluate the Board
 function evaluate(board) {
     if (checkWinner(board, currentPlayer)) {
-        return 10; // Higher score for winning
+        return 10;
     } else if (checkWinner(board, anotherPlayer)) {
-        return -10; // Lower score for losing
+        return -10;
     } else {
         // Heuristic: prioritize the center and corners
         var heuristicScore = 0;
