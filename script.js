@@ -2,7 +2,7 @@
   Project Information:
   - Project Owner:Amrit Karki
   - Project Submission: This project has been submitted to Prodigy Info Tech.
-  - Project Name: Tic Tac Toe App.
+  - Project Name: Tic Tac Toe 
   - Role: Web Development Intern
 
   Copyright © 2023Amrit Karki. All Rights Reserved.
