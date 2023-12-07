@@ -6,8 +6,7 @@
   - Role: Web Development Intern
 
   Copyright © 2023Amrit Karki. All Rights Reserved.
-  Unauthorized copying or reproduction of this file, in part or whole,
-  without the permission from the owner is strictly prohibited.
+  Unauthorized reproduction of this file without the permission from the owner is strictly prohibited.
 */
 
 // Get DOM elements
